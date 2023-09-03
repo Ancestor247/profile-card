@@ -47,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333;
 }
 
 .text-data .name {
@@ -57,5 +58,27 @@ body {
 .text-data .job {
     font-size: 15px;
     font-weight: 400;
+}
+
+.profile-card .media-button {
+    display: flex;
+    align-items: center;
+}
+
+.media-button .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+    margin-top: 10px
+
+
 }
 
